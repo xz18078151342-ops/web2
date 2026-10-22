@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>地月驿站L5 · 三维临场台 | Lunar Station L5 · 3D Console</title>
+<meta name="description" content="圆型限制性三体问题的三维交互现场：地月系统、五个平动点、三维零速度面与 L1 门洞、L5 驿站站体、面外运动与捕获判定。零外部依赖，双击即开，离线可运行。">
+<meta name="color-scheme" content="dark">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<noscript>
+  <p style="padding:24px;font-family:system-ui">
+    本页是 WebGL 三维交互台，需要启用 JavaScript。二维主作品仍可离线运行。
+  </p>
+</noscript>
+
+<!-- 画布、面板与标签全部由 ui3d.js 装配；这里只留脚本顺序（同一份内核，二维算法在前） -->
+<script src="algo.js"></script>
+<script src="algo3d.js"></script>
+<script src="gl3d.js"></script>
+<script src="scene3d.js"></script>
+<script src="ui3d.js"></script>
+<script src="tour3d.js"></script>
+</body>
+</html>
